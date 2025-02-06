@@ -14,8 +14,22 @@
 - Created Redux store with user slice
 - Implemented sign out
 - Update profile
+- Bug fix -> Sign up user displayname and profile pic update
+- Bug fix => If user is not logged in Redirect /browse to Login page and vice-versa
+- Unsubscribed to onAuthStateChanged callback
+- Created constant file 
+- Register on TMDB app and create an app & get access token
+- Get Data from TMDB now playing movies list
+- Custom hook for now playing movies
+- Created Movie slice
+- Updated store with movie data
+- Planned maincontainer and secondary container for browse page
+- Fetch Data for trailer video
+- Updated store with trailer video
+- Embedded the youtube video and make it autoplay and mute
+- Tailwing class to make container look awesome
 
-# Featrues
+# Features
 - Login/Signup
     - Sign In/Sign Up form
     - Redirect to browse
