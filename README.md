@@ -15,7 +15,7 @@
 - Implemented sign out
 - Update profile
 - Bug fix -> Sign up user displayname and profile pic update
-- Bug fix => If user is not logged in Redirect /browse to Login page and vice-versa
+- Bug fix -> If user is not logged in Redirect /browse to Login page and vice-versa
 - Unsubscribed to onAuthStateChanged callback
 - Created constant file 
 - Register on TMDB app and create an app & get access token
@@ -37,7 +37,12 @@
 - GPT search bar
 - Multi language feature 
 - Integrate GPT APIs
-
+- Fetch GPT movie suggesstion from TMDB
+- GPT slice and added data
+- Reused movie list component to make movie recommendation container
+- Memoization
+- Added .env file to store API keys
+- Made our site responsive
 
 
 # Features
