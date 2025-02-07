@@ -1,5 +1,5 @@
 
-import React, { useEffect, useState } from 'react'
+import { useEffect } from 'react'
 import { API_OPTIONS } from '../utils/constant'
 import { addNowPlayingMovies } from '../utils/moviesSlice';
 import { useDispatch } from 'react-redux';
@@ -14,6 +14,7 @@ const useNowPlayingMovies = () => {
     useEffect(()=> {
       getNowPlayingMovies();
     }, []);
+    
 }
 
 export default useNowPlayingMovies;

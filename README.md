@@ -27,7 +27,18 @@
 - Fetch Data for trailer video
 - Updated store with trailer video
 - Embedded the youtube video and make it autoplay and mute
-- Tailwing class to make container look awesome
+- Tailwind class to make container look awesome
+- Build secondary component
+- Build Movie list
+- Build Movie card
+- TMDB Image CDN URL in constants file
+- Added popular/upcoming movies list
+- GPT search page
+- GPT search bar
+- Multi language feature 
+- Integrate GPT APIs
+
+
 
 # Features
 - Login/Signup
